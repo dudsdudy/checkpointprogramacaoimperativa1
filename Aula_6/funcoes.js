@@ -40,25 +40,26 @@ multiplicar();
 
 //escopo (nesse exemplo abaixo, vemos um exemplo da função que só funciona dentro do bloco de código)
 
-function multiplicar (num1,num2){
-    let resultado = num1*num2;
-    }
+//function multiplicar (num1,num2){
+   // let resultado = num1*num2;
+   // }
 
-    console.log(resultado);
+   // console.log(resultado);
 
     // abaixo outro exemplo de uma váriavel fora da função
 
-    let resultado = 0;
+   {  let resultado = 0;
 
-    console.log ("Resultado fora da função=", resultado);
+    console.log ("Resultado dentro da função=", resultado);
 
+  }
+    function multiplicacao (numb1,numb2) {
+        resultado = numb1 * numb2 ;
+        console.log ("Resultado fora da função=", );
 
-    function multiplicar (numb1, numb2) {
-        resultado = numb1 * numb2;
-        console.log ("Resultado dentro da função=", resultado);
+      }
+   
 
-        multiplicar(2, 2)
-    }
+    multiplicar(2, 2)
 
- 
-
+  
