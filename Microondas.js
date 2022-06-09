@@ -83,3 +83,5 @@ else{
 
 
 opcao(comida,tempo);
+
+teste1
